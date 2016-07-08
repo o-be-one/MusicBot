@@ -84,7 +84,7 @@ class MusicBot(discord.Client):
         self.cached_client_id = None
 
         if not self.autoplaylist:
-            print("Warning: Autoplaylist is empty, disabling.")
+            print("Warning: Autoplaylist is empty, désactivation.")
             self.config.auto_playlist = False
 
         # TODO: Do these properly
